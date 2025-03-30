@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../components/Button/Button'
 const SecondSection = () => {
     return (
-        <section className='w-full mx-auto max-w-[1700px] min-h-max lg:h-screen 2xl:h-full flex relative p-4 min-[430px]:p-6 min-[590px]:p-7 sm:p-8 md:p-9 lg:p-9 xl:pl-10 gap-4 min-[430px]:gap-6 sm:gap-8 md:gap-9 lg:gap-9 xl:gap-10 z-0'>
+        <section id='SecondSection' className='w-full mx-auto max-w-[1700px] min-h-max lg:h-screen 2xl:h-full flex relative p-4 min-[430px]:p-6 min-[590px]:p-7 sm:p-8 md:p-9 lg:p-9 xl:p-10 gap-4 min-[430px]:gap-6 sm:gap-8 md:gap-9 lg:gap-9 xl:gap-10 z-0'>
             <div id='second_left' className='flex w-1/2 h-full'>
                 <div id='image-what-is-student-senate' className='w-full aspect-square bg-[#4C4CED80]'></div>
             </div>
@@ -10,7 +10,6 @@ const SecondSection = () => {
                 <p id='what-is-student-senate' className='font-[600] text-base min-[430px]:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>What is the Student's Senate?</p>
                 <p id='description-what-is-student-senate' className='font-[400] text-xs min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
                 <Button
-                    className='bg-[#1F1D86] text-white text-xs min-[590px]:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl flex justify-center items-center gap-2 max-w-max pl-3 pr-2 pt-1 pb-1.5'
                     text={"Read more"}
                     endIcon={
                         <svg
