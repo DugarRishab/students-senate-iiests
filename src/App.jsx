@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./screens/Home";
 import Council from "./screens/Council";
+import Navbar from "./components/Navbar/Navbar";
 import './App.css'
 
 const App = () => {
@@ -9,8 +10,8 @@ const App = () => {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/council" element={<Council />} />
+          <Route path="/" element={<><Navbar /><Home /></>} />
+          <Route path="/council" element={<><Navbar /><Council /></>} />
         </Routes>
       </div>
     </Router>

@@ -6,7 +6,7 @@ import NoticeSection from "../sections/NoticeSection/NoticeSection";
 
 const Home = () => {
   return (
-    <div className="bg-[#DEF0F9] w-full min-h-screen">
+    <div className="bg-[#DEF0F9] w-full min-h-screen relative">
       <HeroSection />
       <SecondSection />
       <NoticeSection />

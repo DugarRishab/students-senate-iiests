@@ -7,7 +7,7 @@ const SecondSection = () => {
                 <div id='image-what-is-student-senate' className='w-full aspect-square bg-[#4C4CED80]'></div>
             </div>
             <div id='second_right' className='flex flex-col gap-2 min-[430px]:gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7 w-1/2 h-full'>
-                <p id='what-is-student-senate' className='font-[600] text-base min-[430px]:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>What is the Student's Senate?</p>
+                <p id='what-is-student-senate' className='font-[600] text-base min-[430px]:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>What is the Students' Senate?</p>
                 <p id='description-what-is-student-senate' className='font-[400] text-xs min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
                 <Button
                     text={"Read more"}
