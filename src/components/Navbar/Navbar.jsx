@@ -28,7 +28,7 @@ const Navbar = () => {
                     <h1 className={`text-xl font-[700] text-black w-24 leading-4 transition-all duration-300`}>STUDENTS' SENATE</h1>
                 </div>
 
-                <div className={`flex ${scrolled ? "gap-5" : "gap-10"} font-[700] text-black text-nowrap`}>
+                <div className={`flex ${scrolled ? "gap-5" : "gap-16"} font-[700] text-black text-nowrap`}>
                     <a href="#" className="hover:underline">Home</a>
                     <a href="/council" className="hover:underline">Council</a>
                     <a href="/about" className="hover:underline">About Us</a>
