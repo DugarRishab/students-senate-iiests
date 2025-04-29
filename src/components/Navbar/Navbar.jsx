@@ -32,8 +32,8 @@ const Navbar = () => {
 
                 <div className="flex gap-20 font-[700] text-black">
                     <a href="#" className="hover:underline">Home</a>
-                    <a href="#" className="hover:underline">Events</a>
-                    <a href="#" className="hover:underline">About Us</a>
+                    <a href="/council" className="hover:underline">Events</a>
+                    <a href="/about" className="hover:underline">About Us</a>
                 </div>
             </nav>
         </header>
