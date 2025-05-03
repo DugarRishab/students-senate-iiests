@@ -1,23 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import Notice from '../../components/Notice/Notice'
 import Button from '../../components/Button/Button'
+import noticesData from '../../assets/notice_data/notices.json'
 
 const NoticeSection = () => {
     const [notices, setNotices] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Fetch notices data from JSON file
-        fetch('/src/assets/notice_data/notices.json')
-            .then(response => response.json())
-            .then(data => {
-                setNotices(data);
-                setLoading(false);
-            })
-            .catch(error => {
-                console.error('Error fetching notices:', error);
-                setLoading(false);
-            });
+        // Use imported JSON data directly
+        setNotices(noticesData);
+        setLoading(false);
     }, []);
 
     // Display only first 3 notices
