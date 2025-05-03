@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { href } from "react-router-dom";
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -19,6 +20,11 @@ const Navbar = () => {
         };
     }, []);
 
+    const navLinks = [
+        { name: "Home", href: "/" },
+        { name: "Events", href: "#" },
+        { name: "About Us", href: "/about" },
+    ];
 
     return (
         <header className={`w-full h-16 sticky top-0 z-50 bg-[#DEF0F9] transition-all duration-300`}>
