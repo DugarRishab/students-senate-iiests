@@ -3,14 +3,26 @@ import React from 'react'
 const Notice = ({ source, title, date, pdf, className }) => {
     
     const handleDownload = () => {
-        // Create link to the PDF file
-        const pdfPath = `/src/assets/notice_data/pdfs/${pdf}`;
-        const link = document.createElement('a');
-        link.href = pdfPath;
-        link.download = pdf;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        try {
+            // Use dynamic import to get the PDF file
+            import(`../../assets/notice_data/pdfs/${pdf}`)
+                .then(module => {
+                    // Create link to the PDF file using the resolved URL
+                    const link = document.createElement('a');
+                    link.href = module.default;
+                    link.download = pdf;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                })
+                .catch(error => {
+                    console.error('Error loading PDF:', error);
+                    alert('Unable to download the PDF file.');
+                });
+        } catch (error) {
+            console.error('Error in handleDownload:', error);
+            alert('Unable to download the PDF file.');
+        }
     };
 
     return (
