@@ -77,7 +77,7 @@ export default function DepartmentsPage() {
     const renderMembersGrid = () => {
         if (!departmentsData[selectedDept]) {
             return (
-                <div className="text-center py-10">
+                <div className="text-center text-lg py-10">
                     <p>Loading department data...</p>
                 </div>
             );
@@ -101,13 +101,14 @@ export default function DepartmentsPage() {
     };
 
     return (
-        <section className="min-h-screen bg-blue-50 py-4 pr-4">
-            <h1 className="w-full flex justify-end font-bold text-4xl py-12 pr-16">
+        <section id="Departments" className="min-h-max w-full max-w-[1700px] relative mx-auto bg-blue-50 py-4 pr-4">
+            {/* w-full max-w-[1700px] min-h-screen absolute top-[28rem] mx-auto */}
+            <h1 className="w-full h-auto text-nowrap flex justify-end font-bold  text-base min-[360px]:text-base min-[430px]:text-lg min-[590px]:text-xl sm:text-2xl md:text-3xl py-12 pr-16">
                 Heading 1
             </h1>
 
             <div className="flex">
-                {/* Left side with semicircular chart */}
+                {/* left side: with semicircular chart */}
                 <div className="w-1/3 relative">
                     <div className="absolute top-[300px] left-[-350px] transform -translate-y-1/2">
                         <div className="size-96 md:size-[700px]">
@@ -141,11 +142,10 @@ export default function DepartmentsPage() {
                                                         ? activeColor
                                                         : regularColor
                                                 }
-                                                className={`transform origin-center ${
-                                                    item.name === selectedDept
-                                                        ? "scale-[100%]"
-                                                        : "scale-[96%]"
-                                                }`}
+                                                className={`transform origin-center ${item.name === selectedDept
+                                                    ? "scale-[100%]"
+                                                    : "scale-[96%]"
+                                                    }`}
                                             />
                                         ))}
                                     </Pie>

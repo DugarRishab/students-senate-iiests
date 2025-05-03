@@ -10,7 +10,7 @@ const Home = () => {
       <HeroSection />
       <SecondSection />
       <NoticeSection />
-      Home
+      {console.log("Home")}
     </div>
   )
 }

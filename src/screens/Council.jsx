@@ -5,6 +5,7 @@ const Council = () => {
   return (
     <div>
       Council
+      {console.log("Council")}
     </div>
   )
 }

@@ -29,7 +29,15 @@ const App = () => {
                             </>
                         }
                     />
-                    <Route path="/about" element={<About />} />
+                    <Route
+                        path="/about"
+                        element={
+                            <>
+                                <Navbar />
+                                <About />
+                            </>
+                        }
+                    />
                 </Routes>
             </div>
         </Router>

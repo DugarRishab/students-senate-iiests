@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { href } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -21,9 +21,9 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: "Home", href: "/" },
-        { name: "Events", href: "#" },
-        { name: "About Us", href: "/about" },
+        { name: "Home", to: "/" },
+        { name: "Council", to: "/council" },
+        { name: "About Us", to: "/about" },
     ];
 
     return (
@@ -35,9 +35,17 @@ const Navbar = () => {
                 </div>
 
                 <div className={`flex ${scrolled ? "gap-5" : "gap-16"} font-[700] text-black text-nowrap`}>
-                    <a href="#" className="hover:underline">Home</a>
-                    <a href="/council" className="hover:underline">Council</a>
-                    <a href="/about" className="hover:underline">About Us</a>
+                    {navLinks.map((link) => (
+                        <NavLink 
+                            key={link.to}
+                            to={link.to} 
+                            className={({ isActive }) => 
+                                isActive ? "underline" : "hover:underline"
+                            }
+                        >
+                            {link.name}
+                        </NavLink>
+                    ))}
                 </div>
             </nav>
         </header>

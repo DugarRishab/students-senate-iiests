@@ -10,4 +10,7 @@
     .clip-polygon-2 {
         clip-path: polygon(100% -35%, 25% 100%, 100% 100%);
     }
+    .clip-polygon-3 {
+        clip-path: polygon(0% 35%, 100% 35%, 100% 100%, 0% 100%);
+    }
 }
