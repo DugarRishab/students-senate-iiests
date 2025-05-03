@@ -1,24 +1,15 @@
 import React from 'react'
 
 const Notice = ({ source, title, date, pdf, className }) => {
-    
+
     const handleDownload = () => {
         try {
-            // Use dynamic import to get the PDF file
-            import(`../../assets/notice_data/pdfs/${pdf}`)
-                .then(module => {
-                    // Create link to the PDF file using the resolved URL
-                    const link = document.createElement('a');
-                    link.href = module.default;
-                    link.download = pdf;
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                })
-                .catch(error => {
-                    console.error('Error loading PDF:', error);
-                    alert('Unable to download the PDF file.');
-                });
+            const link = document.createElement('a');
+            link.href = `/assets/notice_data/pdfs/${pdf}`;
+            link.download = pdf;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         } catch (error) {
             console.error('Error in handleDownload:', error);
             alert('Unable to download the PDF file.');
@@ -31,8 +22,8 @@ const Notice = ({ source, title, date, pdf, className }) => {
             <span className='text-sm min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl hover:underline cursor-pointer'>{title}</span>
             <div className='flex justify-between items-center'>
                 <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm'>{date}</span>
-                <span 
-                    onClick={handleDownload} 
+                <span
+                    onClick={handleDownload}
                     className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] flex items-center gap-1 sm:gap-1.5 cursor-pointer hover:underline mb-1.5'
                 >
                     <span>Download</span>
