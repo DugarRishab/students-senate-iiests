@@ -1,13 +1,28 @@
 import React from 'react'
 
-const Notice = ({ source, title, date, link, className }) => {
+const Notice = ({ source, title, date, pdf, className }) => {
+    
+    const handleDownload = () => {
+        // Create link to the PDF file
+        const pdfPath = `/src/assets/notice_data/pdfs/${pdf}`;
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = pdf;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className="w-full min-h-max flex flex-col gap-1 min-[430px]:gap-1.5 sm:gap-2.5 md:gap-3 border-b-[0.5px]">
             <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm'>{source}</span>
-            <span onClick={link} className='text-sm min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl hover:underline'>{title}</span>
+            <span className='text-sm min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl hover:underline cursor-pointer'>{title}</span>
             <div className='flex justify-between items-center'>
                 <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm'>{date}</span>
-                <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-[0.9rem] flex items-center gap-1 sm:gap-1.5 cursor-pointer hover:underline'>
+                <span 
+                    onClick={handleDownload} 
+                    className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] flex items-center gap-1 sm:gap-1.5 cursor-pointer hover:underline mb-1.5'
+                >
                     <span>Download</span>
                     <span>
                         <svg className='w-3.5 sm:w-4 md:w-5' width="12" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

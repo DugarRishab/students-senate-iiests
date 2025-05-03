@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "source": "Student Senate",
+    "title": "Upcoming General Body Meeting",
+    "date": "April 28, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 2,
+    "source": "Academic Council",
+    "title": "End Semester Examination Schedule",
+    "date": "April 25, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 3,
+    "source": "Student Affairs",
+    "title": "Annual Cultural Festival Announcement",
+    "date": "April 20, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 4,
+    "source": "Library",
+    "title": "New Digital Resources Available",
+    "date": "April 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 5,
+    "source": "Placement Cell",
+    "title": "Upcoming Campus Interviews",
+    "date": "April 10, 2025",
+    "pdf": "dummy-pdf.pdf"
+  }
+]
