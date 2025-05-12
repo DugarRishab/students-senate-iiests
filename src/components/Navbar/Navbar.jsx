@@ -30,7 +30,7 @@ const Navbar = () => {
         <header className={`w-full h-16 sticky top-0 z-50 bg-[#DEF0F9] transition-all duration-300`}>
             <nav className={`max-w-[1700px] h-full mx-auto flex items-center ${scrolled ? "justify-between" : "justify-center"} transition-all duration-300 px-4`}>
                 <div className={`flex items-center cursor-pointer ${scrolled ? "block" : "hidden"} transition-all duration-300`}>
-                    <img src="./assets/imgs/IIEST_Shibpur_Logo.png" alt="Logo" className={`h-10 pr-4 transition-all duration-300`} />
+                    <img src="./assets/imgs/senate_logo.png" alt="Logo" className={`h-10 pr-4 transition-all duration-300`} />
                     <h1 className={`text-xl font-[700] text-black w-24 leading-4 transition-all duration-300`}>STUDENTS' SENATE</h1>
                 </div>
 
