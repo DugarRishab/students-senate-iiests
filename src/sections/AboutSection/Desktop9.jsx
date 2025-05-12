@@ -1,6 +1,6 @@
 export default function Desktop9() {
     return (
-        <section id="Desktop9" className="w-full max-w-[1700px] min-h-max mx-auto flex flex-col gap-5 min-[360px]:gap-5 -mt-[2rem] min-[360px]:-mt-[2rem] min-[430px]:-mt-[3rem] min-[590px]:-mt-[3rem] sm:-mt-[4rem] md:-mt-[4rem] lg:-mt-[5rem] relative z-10">
+        <section id="Desktop9" className="w-full max-w-[1700px] min-h-max mx-auto flex flex-col gap-5 min-[360px]:gap-5 -mt-[2rem] min-[360px]:-mt-[2rem] min-[430px]:-mt-[3rem] min-[590px]:-mt-[3rem] sm:-mt-[4rem] md:-mt-[4rem] lg:-mt-[5rem] mb-[2rem] relative z-10">
             {/* top */}
             <div className="w-full flex items-center justify-end">
                 {/* [20%] min-[430px]:h-24 min-[590px]:h-[] */}
