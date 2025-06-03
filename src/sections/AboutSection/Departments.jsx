@@ -77,16 +77,14 @@ export default function DepartmentsPage() {
     const renderMembersGrid = () => {
         if (!departmentsData[selectedDept]) {
             return (
-                <div className="text-center text-lg py-10">
+                <div className="text-center py-10">
                     <p>Loading department data...</p>
                 </div>
             );
         }
 
         return (
-            <div className="grid grid-cols-1 min-[430px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
-                            gap-8 min-[430px]:gap-8 sm:gap-5 md:gap-6 lg:gap-28 xl:gap-x-40
-                            mt-3 min-[430px]:mt-4 sm:mt-5 md:mt-6">
+            <div className="grid grid-cols-4 gap-6 mt-6">
                 {departmentsData[selectedDept].map((member, index) => (
                     <div key={index} className="flex flex-col items-center">
                         <AvatarCard
@@ -103,82 +101,73 @@ export default function DepartmentsPage() {
     };
 
     return (
-        <section id="Departments" className="overflow-hidden min-h-max h-auto w-full max-w-[1700px] flex flex-col md:flex-row relative mx-auto bg-blue-50">
+        <section className="min-h-screen bg-blue-50 py-4 pr-4">
+            <h1 className="w-full flex justify-end font-bold text-4xl py-12 pr-16">
+                Heading 1
+            </h1>
 
-            {/* left side */}
-            <div id="chart-container" className="h-auto w-full md:w-1/3 -mt-[10.625rem] min-[360px]:-mt-[12rem] min-[430px]:-mt-[13rem] min-[500px]:-mt-[14.5rem] min-[590px]:-mt-[18rem] sm:-mt-[20rem] md:mt-[0rem] md:transform md:translate-x-[-15rem] lg:translate-x-[-23.5rem] relative">
-                {/* semicircular chart */}
-                <div id="chart" className="h-[21rem] min-[360px]:h-[24rem] min-[430px]:h-[26rem] min-[500px]:h-[29rem] min-[590px]:h-[36rem] sm:h-[39rem] md:w-[30rem] lg:w-[47rem] rotate-90 md:rotate-0">
-                    <ResponsiveContainer
-                        width="100%"
-                        height="100%"
-                        className="z-0"
-                    >
-                        <PieChart>
-                            <Pie
-                                data={pieData}
-                                dataKey="value"
-                                cx="50%"
-                                cy="50%"
-                                startAngle={90}
-                                endAngle={-90}
-                                innerRadius={0}
-                                outerRadius="100%"
-                                paddingAngle={2}
-                                onClick={handlePieClick}
-                                isAnimationActive={true}
-                                animationDuration={800}
-                                stroke="rgba(76,76,237,1)"
-                                strokeWidth={1}
+            <div className="flex">
+                {/* Left side with semicircular chart */}
+                <div className="w-1/3 relative">
+                    <div className="absolute top-[300px] left-[-350px] transform -translate-y-1/2">
+                        <div className="size-96 md:size-[700px]">
+                            <ResponsiveContainer
+                                width="100%"
+                                height="100%"
+                                className="z-30"
                             >
-                                {pieData.map((item) => (
-                                    <Cell
-                                        key={`cell-${item.name}`}
-                                        fill={
-                                            item.name === selectedDept
-                                                ? activeColor
-                                                : regularColor
-                                        }
-                                        className={`transform origin-center ${item.name === selectedDept
-                                            ? "scale-[100%]"
-                                            : "scale-[96%]"
-                                            }`}
-                                    />
-                                ))}
-                            </Pie>
-                        </PieChart>
-                    </ResponsiveContainer>
+                                <PieChart>
+                                    <Pie
+                                        data={pieData}
+                                        dataKey="value"
+                                        cx="50%"
+                                        cy="50%"
+                                        startAngle={90}
+                                        endAngle={-90}
+                                        innerRadius={0}
+                                        outerRadius="100%"
+                                        paddingAngle={2}
+                                        onClick={handlePieClick}
+                                        isAnimationActive={true}
+                                        animationDuration={800}
+                                        stroke="rgba(76,76,237,1)"
+                                        strokeWidth={1}
+                                    >
+                                        {pieData.map((item) => (
+                                            <Cell
+                                                key={`cell-${item.name}`}
+                                                fill={
+                                                    item.name === selectedDept
+                                                        ? activeColor
+                                                        : regularColor
+                                                }
+                                                className={`transform origin-center ${
+                                                    item.name === selectedDept
+                                                        ? "scale-[100%]"
+                                                        : "scale-[96%]"
+                                                }`}
+                                            />
+                                        ))}
+                                    </Pie>
+                                </PieChart>
+                            </ResponsiveContainer>
+                        </div>
+
+                        {/* center semi circle */}
+                        <div
+                            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pl-36 font-bold text-sm
+                            bg-indigo-900 text-white rounded-full size-[278px] flex flex-col items-start justify-center text-left"
+                            style={{ borderRadius: "0% 50% 50% 0%" }}
+                        >
+                            THE <br />
+                            GENERAL <br />
+                            COUNCIL
+                        </div>
+                    </div>
                 </div>
 
-                {/* center semi circle */}
-                <div
-                    id="center-semi-circle"
-                    className="absolute top-[35%] min-[360px]:top-[36%] min-[590px]:top-[40%] md:top-[24%] left-[31%] min-[360px]:left-[33%] min-[430px]:left-[36%] sm:left-[37%] md:left-[50%] lg:left-[75%] xl:left-[65%] 2xl:left-[53%]
-                            pt-[3rem] sm:pt-[3rem] md:pt-0 md:pl-[7rem] lg:pl-[7rem]
-                            font-bold text-xs sm:text-sm
-                            bg-indigo-900 text-white rounded-full 
-                            size-[8rem] min-[360px]:size-[8rem] min-[430px]:size-[9rem] min-[590px]:size-[11rem] sm:size-[12rem] md:size-[12rem] 
-                            flex items-center justify-center md:justify-start text-center md:text-start"
-                >
-                    THE <br />
-                    GENERAL <br />
-                    COUNCIL
-                </div>
-            </div>
-
-            {/* right side */}
-            <div className="md:w-2/3">
-                {/* heading: department name */}
-                <h1 className="w-full h-auto text-nowrap flex items-center justify-end 
-                            font-bold text-base min-[360px]:text-base min-[430px]:text-lg min-[590px]:text-xl sm:text-2xl md:text-3xl 
-                            py-3 min-[360px]:py-3 min-[430px]:py-5 sm:py-8 md:py-10
-                            px-6 min-[360px]:px-6 min-[430px]:px-8 sm:px-10 md:px-16">
-                    Heading 1
-                </h1>
-
-                {/* department cards */}
-                <div className="h-auto w-full lg:w-2/3 
-                                mx-auto">
+                {/* right side: department cards */}
+                <div className="w-2/3 pl-10 min-h-[700px]">
                     {renderMembersGrid()}
                 </div>
             </div>
