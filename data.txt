@@ -1,0 +1,4 @@
+Responsive points: 1920x1080 -> max,
+1366x768, 1240x720
+phones,
+tablets -> No
