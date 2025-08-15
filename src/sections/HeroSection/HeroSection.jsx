@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* hero left */}
       <div className="w-1/2 h-full flex flex-col justify-center pl-4 min-[430px]:pl-6 min-[590px]:pl-7 sm:pl-8 md:pl-9 lg:pl-9 xl:pl-10 py-7 min-[430px]:py-8 min-[590px]:py-10 sm:py-12 md:py-14">
         <img
-          src="./assets/imgs/IIEST_Shibpur_Logo.png"
+          src="./assets/imgs/Students_Senate_Logo.png"
           alt="IIEST Shibpur Logo"
           className="w-10 min-[430px]:w-12 min-[590px]:w-14 sm:w-16 md:w-20 lg:w-24 xl:w-28"
         />
@@ -25,7 +25,7 @@ const HeroSection = () => {
         <img
           src="./assets/imgs/IIEST_Shibpur_Clock.png"
           alt="IIEST Shibpur Clock"
-          className="h-full absolute right-0 bottom-0 z-[2]"
+          className="h-full absolute right-0 bottom-0 z-[2] select-none"
         />
       </div>
 

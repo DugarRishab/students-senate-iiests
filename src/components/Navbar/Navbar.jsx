@@ -31,29 +31,29 @@ const Navbar = ({ navLinks }) => {
 
   return (
     <header
-      className={`w-full py-2 px-6 fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
+      className={`w-full px-6 fixed top-0 right-0 left-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-tintWhite shadow-lg _border-b _border-tintPurple"
-          : "bg-transparent"
+          ? "bg-tintWhite shadow-lg _border-b _border-tintPurple py-2"
+          : "bg-transparent py-4"
       }`}
     >
       <nav
-        className={`h-full mx-auto flex items-center ${scrolled ? "justify-between" : "justify-between"} max-sm:justify-center transition-all duration-300 px-4`}
+        className={`h-full mx-auto flex items-center ${scrolled ? "justify-between" : "justify-center"} max-sm:justify-center transition-all duration-300 px-4`}
       >
-        <div className="flex items-center cursor-pointer">
+        <div className={`flex items-center cursor-pointer ${!scrolled && "hidden"} max-sm:hidden`}>
           <img
-            src="./assets/imgs/IIEST_Shibpur_Logo.png"
+            src="./assets/imgs/Students_Senate_Logo.png"
             alt="Logo"
-            className={`h-10 pr-4 ${scrolled && "NOT_hidden"} max-sm:hidden transition-all duration-300`}
+            className={`h-10 pr-4 transition-all duration-300`}
           />
           <h1
-            className={`text-xl font-[700] text-black w-24 leading-4 ${scrolled && "hidden"} max-sm:hidden transition-all duration-300`}
+            className={`text-xl font-[700] text-black w-24 leading-4 transition-all duration-300`}
           >
             STUDENTS' SENATE
           </h1>
         </div>
 
-        <div className="flex gap-12 font-[400] text-black">
+        <div className="flex gap-12 font-[500] text-black">
           {navLinks.map((item) => (
             <div
               key={item.href}

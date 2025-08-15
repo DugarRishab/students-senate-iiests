@@ -10,7 +10,6 @@ const Home = () => {
       <HeroSection />
       <SecondSection />
       <NoticeSection />
-      Home
     </div>
   )
 }
