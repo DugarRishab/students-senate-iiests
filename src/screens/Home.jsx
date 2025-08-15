@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import HeroSection from "../sections/HeroSection/HeroSection";
 import SecondSection from "../sections/SecondSection/SecondSection";
 import NoticeSection from "../sections/NoticeSection/NoticeSection";
@@ -11,7 +11,7 @@ const Home = () => {
       <SecondSection />
       <NoticeSection />
     </div>
-  )
-}
+  );
+};
 
 export default Home;

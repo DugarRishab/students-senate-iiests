@@ -5,7 +5,12 @@ const HeroSection = () => {
     <section className="min-h-screen relative">
       <Navbar />
 
-      <div className="flex flex-col justify-start pt-[20%] pl-[5%] h-screen mx-auto max-w-[1920px]">
+      <div className="flex flex-col justify-start pt-[12%] pl-[5%] h-screen mx-auto max-w-[1920px]">
+        <img
+          src="./assets/imgs/Students_Senate_Logo.png"
+          alt="IIEST Shibpur Logo"
+          className="w-10 min-[430px]:w-12 min-[590px]:w-14 sm:w-16 md:w-20 lg:w-24 xl:w-28 z-40"
+        />
         <p className="text-3xl font-normal font-sans mb-12 z-40">
           Indian Institute Of Engineering Science and <br /> Technology, Shibpur
         </p>
