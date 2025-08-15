@@ -4,7 +4,7 @@ const Notice = ({ source, title, date, pdf, className }) => {
     
     const handleDownload = () => {
         // Create link to the PDF file
-        const pdfPath = `/src/assets/notice_data/pdfs/${pdf}`;
+        const pdfPath = `./assets/notice_data/pdfs/${pdf}`;
         const link = document.createElement('a');
         link.href = pdfPath;
         link.download = pdf;

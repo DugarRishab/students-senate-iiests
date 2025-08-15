@@ -8,7 +8,7 @@ const NoticeSection = () => {
 
     useEffect(() => {
         // Fetch notices data from JSON file
-        fetch('/src/assets/notice_data/notices.json')
+        fetch('./assets/notice_data/notices.json')
             .then(response => response.json())
             .then(data => {
                 setNotices(data);
