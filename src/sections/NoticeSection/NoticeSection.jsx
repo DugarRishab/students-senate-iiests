@@ -45,11 +45,11 @@ const NoticeSection = () => {
         <section id='NotificationSection' className='w-full mx-auto max-w-[1700px] min-h-max lg:h-screen 2xl:h-full flex relative py-4 min-[430px]:py-6 min-[590px]:py-7 sm:py-8 md:py-9 lg:py-9 xl:py-10 gap-4 min-[430px]:gap-6 sm:gap-8 md:gap-9 lg:gap-9 xl:gap-10 z-0'>
             <div id='Notifications' className="min-h-max flex flex-col items-end gap-2 min-[430px]:gap-3 min-[590px]:gap-4 sm:gap-5 md:gap-6 lg:gap-6 text-white w-full md:w-[60%] max-h-max bg-[#1F1D86] p-4 min-[430px]:p-6 min-[590px]:p-7 sm:p-8 md:p-9 lg:p-9 xl:p-10">
                 <div className='flex justify-between w-full'>
-                    <h1 className='font-[600] text-xl min-[590px]:text-2xl sm:text-3xl md:text-3xl lg:text-3xl mb-2 md:mb-3 self-start'>Notices</h1>
+                    <h1 className='font-[600] text-2xl lg:text-3xl xl:text-4xl mb-2 md:mb-3 self-start'>Notices</h1>
 
                     {/* Items per page selector */}
                     <div className="mb-4 flex items-center gap-2">
-                        <label htmlFor="itemsPerPage" className="text-sm">Show:</label>
+                        <label htmlFor="itemsPerPage" className="text-sm">Show</label>
                         <select
                             id="itemsPerPage"
                             value={itemsPerPage}
@@ -60,7 +60,7 @@ const NoticeSection = () => {
                             <option value={10}>10</option>
                             <option value={25}>25</option>
                         </select>
-                        <span className="text-sm">per page</span>
+                        <span className="text-sm">entries</span>
                     </div>
                 </div>
 
@@ -81,18 +81,18 @@ const NoticeSection = () => {
                     ))
                 )}
                     {/* Pagination buttons */}
-                    <div className='w-full mt-8 flex justify-end'>
+                    <div className='w-full mt-8 flex justify-center sm:justify-end'>
                         <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
                     </div>
 
-                    <div className="NoticeDetails w-full flex flex-col">
-                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm mb-2 opacity-[90%]'>
+                    <div className="NoticeDetails w-full flex flex-col max-sm:mt-6">
+                        <span className='text-sm sm:text-xs md:text-[0.8rem] md:text-sm mb-2 opacity-[90%]'>
                             {`Showing ${showingFrom} to ${showingTo} of ${notices.length} entries`}
                         </span>
-                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
+                        <span className='text-sm sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
                             Last Updated: 15 October, 2025
                         </span>
-                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
+                        <span className='text-sm sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
                             Created: 27 April, 2025
                         </span>
                     </div>

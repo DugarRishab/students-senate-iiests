@@ -2,13 +2,13 @@ import React from 'react'
 import Button from '../../components/Button/Button'
 const SecondSection = () => {
     return (
-        <section id='SecondSection' className='w-full mx-auto max-w-[1700px] min-h-max lg:h-screen 2xl:h-full flex relative p-4 min-[430px]:p-6 min-[590px]:p-7 sm:p-8 md:p-9 lg:p-9 xl:p-10 gap-4 min-[430px]:gap-6 sm:gap-8 md:gap-9 lg:gap-9 xl:gap-10 z-0'>
-            <div id='second_left' className='flex w-1/2 h-full'>
-                <div id='image-what-is-student-senate' className='w-full aspect-square bg-[#4C4CED80]'></div>
+        <section id='SecondSection' className='w-full mx-auto max-w-[1700px] min-h-max lg:h-screen 2xl:h-full flex max-sm:flex-col relative p-4 min-[430px]:p-6 min-[590px]:p-7 sm:p-8 md:p-9 lg:p-9 xl:p-10 gap-4 min-[430px]:gap-6 sm:gap-8 md:gap-9 lg:gap-9 xl:gap-10 z-0'>
+            <div id='second_left' className='flex w-1/2 max-sm:w-full h-full'>
+                <div id='image-what-is-student-senate' className='w-full aspect-square bg-[#959ef3]'></div>
             </div>
-            <div id='second_right' className='flex flex-col gap-2 min-[430px]:gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7 w-1/2 h-full'>
-                <p id='what-is-student-senate' className='font-[600] text-base min-[430px]:text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>What is the Students' Senate?</p>
-                <p id='description-what-is-student-senate' className='font-[400] text-xs min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+            <div id='second_right' className='flex flex-col gap-2 min-[430px]:gap-3 sm:gap-4 md:gap-5 lg:gap-6 xl:gap-7 w-1/2 max-sm:w-full h-full'>
+                <p id='what-is-student-senate' className='font-[600] text-2xl lg:text-3xl xl:text-4xl'>What is the Students' Senate?</p>
+                <p id='description-what-is-student-senate' className='font-[400] text-xl md:text-lg lg:text-xl xl:text-2xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
                 <Button
                     text={"Read more"}
                     endIcon={
