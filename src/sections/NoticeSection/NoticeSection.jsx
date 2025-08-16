@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import Notice from '../../components/Notice/Notice'
 import Button from '../../components/Button/Button'
+import Pagination from '../../components/Pagination/Pagination'
 
 const NoticeSection = () => {
     const [notices, setNotices] = useState([]);
     const [loading, setLoading] = useState(true);
 
     const [currentPage, setCurrentPage] = useState(1);
-    const [itemsPerPage, setItemsPerPage] = useState(5);
+    const [itemsPerPage, setItemsPerPage] = useState(10);
 
     useEffect(() => {
         // Fetch notices data from JSON file
@@ -23,14 +24,13 @@ const NoticeSection = () => {
             });
     }, []);
 
-    // Display only first 3 notices
-    const displayedNotices = notices.slice(0, 3);
-
     // Pagination calculations
     const indexOfLastItem = currentPage * itemsPerPage;
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentNotices = notices.slice(indexOfFirstItem, indexOfLastItem);
-    const totalPages = Math.ceil(notices.length / itemsPerPage);
+    const totalPages = Math.ceil(notices.length / itemsPerPage) || 0;
+    const showingFrom = notices.length === 0 ? 0 : indexOfFirstItem + 1
+    const showingTo = Math.min(indexOfLastItem, notices.length)
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
@@ -80,24 +80,22 @@ const NoticeSection = () => {
                         />
                     ))
                 )}
-
-                {/* Pagination buttons */}
-                {totalPages > 1 && (
-                    <div className="flex gap-2 mt-4 flex-wrap">
-                        {Array.from({ length: totalPages }, (_, index) => (
-                            <button
-                                key={index + 1}
-                                onClick={() => handlePageChange(index + 1)}
-                                className={`px-3 py-1 rounded ${currentPage === index + 1
-                                    ? 'bg-white text-black'
-                                    : 'bg-gray-300 text-black hover:bg-gray-400'
-                                    }`}
-                            >
-                                {index + 1}
-                            </button>
-                        ))}
+                    {/* Pagination buttons */}
+                    <div className='w-full mt-8 flex justify-end'>
+                        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
                     </div>
-                )}
+
+                    <div className="NoticeDetails w-full flex flex-col">
+                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm mb-2 opacity-[90%]'>
+                            {`Showing ${showingFrom} to ${showingTo} of ${notices.length} entries`}
+                        </span>
+                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
+                            Last Updated: 15 October, 2025
+                        </span>
+                        <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[75%]'>
+                            Created: 27 April, 2025
+                        </span>
+                    </div>
             </div>
         </section>
     )

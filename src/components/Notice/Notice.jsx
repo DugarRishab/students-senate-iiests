@@ -15,7 +15,7 @@ const Notice = ({ source, title, date, pdf, className }) => {
 
     return (
         <div className="w-full min-h-max flex flex-col gap-1 min-[430px]:gap-1.5 sm:gap-2.5 md:gap-3 border-b-[0.5px]">
-            <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm'>{source}</span>
+            <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[90%]'>{source}</span>
             <span
                 onClick={handleDownload}
                 className='text-sm min-[430px]:text-sm sm:text-base md:text-lg lg:text-xl hover:underline cursor-pointer'
@@ -23,7 +23,7 @@ const Notice = ({ source, title, date, pdf, className }) => {
                 {title}
             </span>
             <div className='flex justify-between items-center'>
-                <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm'>{date}</span>
+                <span className='text-[0.6rem] min-[430px]:text-[0.65rem] sm:text-xs md:text-[0.8rem] md:text-sm opacity-[90%]'>{date}</span>
             </div>
         </div>
     );

@@ -1,142 +1,1402 @@
 [
   {
     "id": 1,
+    "source": "Registrar's Office",
+    "title": "Official Welcome Note for the New Academic Year",
+    "date": "August 16, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 2,
+    "source": "Student Affairs",
+    "title": "Orientation Schedule for First-Year Students",
+    "date": "August 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 3,
+    "source": "Hostel Administration",
+    "title": "Final Hostel Room Allotment List",
+    "date": "August 12, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 4,
+    "source": "Finance Department",
+    "title": "Deadline for Semester Fee Payment",
+    "date": "August 10, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 5,
+    "source": "Academic Council",
+    "title": "Finalized Academic Calendar for 2025-26",
+    "date": "August 8, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 6,
+    "source": "IT Services",
+    "title": "Campus Wi-Fi Credentials for New Students",
+    "date": "August 5, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 7,
+    "source": "Library",
+    "title": "Library Membership Registration Process",
+    "date": "August 2, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 8,
+    "source": "Exam Cell",
+    "title": "Schedule for Supplementary Examinations (Summer Term)",
+    "date": "July 30, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 9,
+    "source": "Student Senate",
+    "title": "Nominations for Student Council Positions",
+    "date": "July 28, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 10,
+    "source": "Sports Committee",
+    "title": "Tryouts for University Sports Teams",
+    "date": "July 25, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 11,
+    "source": "Cultural Committee",
+    "title": "Auditions for Music and Drama Clubs",
+    "date": "July 22, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 12,
+    "source": "Placement Cell",
+    "title": "Pre-Placement Talk Schedule (First Phase)",
+    "date": "July 20, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 13,
+    "source": "Department of Computer Science",
+    "title": "Introductory Seminar on Quantum Computing",
+    "date": "July 18, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 14,
+    "source": "NSS Unit",
+    "title": "Enrollment Drive for New Volunteers",
+    "date": "July 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 15,
+    "source": "Hostel Administration",
+    "title": "Guidelines for Hostel Residents",
+    "date": "July 11, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 16,
+    "source": "Training & Development Cell",
+    "title": "Workshop on Resume Building and Interview Skills",
+    "date": "July 9, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 17,
+    "source": "Department of Mechanical Engineering",
+    "title": "Industrial Visit to Automotive Plant",
+    "date": "July 7, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 18,
+    "source": "Health Centre",
+    "title": "Mandatory Health Check-up for All Students",
+    "date": "July 4, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 19,
+    "source": "Academic Council",
+    "title": "List of Approved Elective Courses",
+    "date": "July 1, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 20,
+    "source": "Alumni Association",
+    "title": "Launch of New Alumni Mentorship Program",
+    "date": "June 28, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 21,
+    "source": "Entrepreneurship Cell",
+    "title": "Call for Ideas: Annual Startup Competition",
+    "date": "June 25, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 22,
+    "source": "Research & Development Cell",
+    "title": "Guidelines for Undergraduate Research Grants",
+    "date": "June 21, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 23,
+    "source": "Department of Electrical Engineering",
+    "title": "Workshop on IoT and Embedded Systems",
+    "date": "June 18, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 24,
+    "source": "Finance Department",
+    "title": "Notice Regarding Scholarship Applications",
+    "date": "June 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 25,
+    "source": "IT Services",
+    "title": "Scheduled Server Maintenance and Downtime",
+    "date": "June 12, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 26,
+    "source": "Student Senate",
+    "title": "Minutes of the Last General Body Meeting",
+    "date": "June 10, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 27,
+    "source": "Exam Cell",
+    "title": "Results of Spring Semester Examinations",
+    "date": "June 7, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 28,
+    "source": "Library",
+    "title": "Notice on Overdue Book Fines",
+    "date": "June 4, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 29,
+    "source": "Department of Civil Engineering",
+    "title": "Guest Lecture on Sustainable Infrastructure",
+    "date": "June 1, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 30,
+    "source": "Placement Cell",
+    "title": "Internship Opportunities for Pre-final Year Students",
+    "date": "May 29, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 31,
+    "source": "Hostel Administration",
+    "title": "Summer Vacation Hostel Allotment Notice",
+    "date": "May 25, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 32,
+    "source": "Student Affairs",
+    "title": "Anti-Ragging Committee Formation and Guidelines",
+    "date": "May 22, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 33,
+    "source": "Academic Council",
+    "title": "Course Feedback Collection for Spring Semester",
+    "date": "May 20, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 34,
+    "source": "NSS Unit",
+    "title": "Tree Plantation Drive on World Environment Day",
+    "date": "May 18, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 35,
+    "source": "Sports Committee",
+    "title": "Schedule for Inter-Departmental Cricket Tournament",
+    "date": "May 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 36,
     "source": "Student Senate",
     "title": "Upcoming General Body Meeting",
     "date": "April 28, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 2,
+    "id": 37,
     "source": "Academic Council",
     "title": "End Semester Examination Schedule",
     "date": "April 25, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 3,
+    "id": 38,
     "source": "Student Affairs",
     "title": "Annual Cultural Festival Announcement",
     "date": "April 20, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 4,
+    "id": 39,
     "source": "Library",
     "title": "New Digital Resources Available",
     "date": "April 15, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 5,
+    "id": 40,
     "source": "Placement Cell",
     "title": "Upcoming Campus Interviews",
     "date": "April 10, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 6,
+    "id": 41,
     "source": "Sports Committee",
     "title": "Inter-College Football Tournament Registration",
     "date": "April 8, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 7,
+    "id": 42,
     "source": "Department of Computer Science",
     "title": "Workshop on AI and Machine Learning",
     "date": "April 5, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 8,
+    "id": 43,
     "source": "Hostel Administration",
     "title": "Summer Vacation Hostel Allotment Notice",
     "date": "April 2, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 9,
+    "id": 44,
     "source": "Health Centre",
     "title": "Free Health Check-up Camp",
     "date": "March 30, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 10,
+    "id": 45,
     "source": "Cultural Committee",
     "title": "Photography Contest Guidelines",
     "date": "March 25, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 11,
+    "id": 46,
     "source": "Library",
     "title": "Extended Library Hours for Exam Preparation",
     "date": "March 20, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 12,
+    "id": 47,
     "source": "Department of Civil Engineering",
     "title": "Industrial Visit to Metro Rail Project",
     "date": "March 18, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 13,
+    "id": 48,
     "source": "Student Senate",
     "title": "Feedback Collection for Campus Facilities",
     "date": "March 15, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 14,
+    "id": 49,
     "source": "Department of Electrical Engineering",
     "title": "Seminar on Renewable Energy Systems",
     "date": "March 12, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 15,
+    "id": 50,
     "source": "Alumni Association",
     "title": "Alumni Meet 2025 Invitation",
     "date": "March 10, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 16,
+    "id": 51,
     "source": "Training & Development Cell",
     "title": "Soft Skills Development Workshop",
     "date": "March 5, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 17,
+    "id": 52,
     "source": "Department of Mechanical Engineering",
     "title": "Guest Lecture on 3D Printing Technology",
     "date": "March 3, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 18,
+    "id": 53,
     "source": "Research & Development Cell",
     "title": "Call for Research Paper Submissions",
     "date": "March 1, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 19,
+    "id": 54,
     "source": "NSS Unit",
     "title": "Blood Donation Camp",
     "date": "February 27, 2025",
     "pdf": "dummy-pdf.pdf"
   },
   {
-    "id": 20,
+    "id": 55,
     "source": "Exam Cell",
     "title": "Mid-Semester Examination Timetable",
     "date": "February 25, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 56,
+    "source": "Finance Department",
+    "title": "Reminder for Mess Fee Payment",
+    "date": "February 22, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 57,
+    "source": "Entrepreneurship Cell",
+    "title": "Speaker Session with a Successful Startup Founder",
+    "date": "February 20, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 58,
+    "source": "Cultural Committee",
+    "title": "Registrations Open for Annual Dance Competition",
+    "date": "February 17, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 59,
+    "source": "IT Services",
+    "title": "Phishing Awareness Campaign",
+    "date": "February 14, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 60,
+    "source": "Placement Cell",
+    "title": "Aptitude Test Preparation Session",
+    "date": "February 11, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 61,
+    "source": "Academic Council",
+    "title": "Notice Regarding Minimum Attendance Requirement",
+    "date": "February 8, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 62,
+    "source": "Registrar's Office",
+    "title": "Holiday on Account of National Festival",
+    "date": "February 5, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 63,
+    "source": "Health Centre",
+    "title": "Vaccination Drive for Influenza",
+    "date": "February 2, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 64,
+    "source": "Library",
+    "title": "Subscription to New Academic Journals",
+    "date": "January 30, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 65,
+    "source": "Sports Committee",
+    "title": "Inauguration of New Basketball Court",
+    "date": "January 27, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 66,
+    "source": "Student Affairs",
+    "title": "Lost and Found Items Notice",
+    "date": "January 24, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 67,
+    "source": "Department of Humanities",
+    "title": "Seminar on Post-Colonial Literature",
+    "date": "January 21, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 68,
+    "source": "Hostel Administration",
+    "title": "Pest Control Schedule for all Hostels",
+    "date": "January 18, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 69,
+    "source": "Training & Development Cell",
+    "title": "Workshop on Public Speaking and Presentation",
+    "date": "January 15, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 70,
+    "source": "Alumni Association",
+    "title": "Call for Nominations: Distinguished Alumni Awards",
+    "date": "January 12, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 71,
+    "source": "Exam Cell",
+    "title": "Procedure for Applying for Grade Re-evaluation",
+    "date": "January 9, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 72,
+    "source": "Student Senate",
+    "title": "Budget Allocation for Student Clubs",
+    "date": "January 6, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 73,
+    "source": "Department of Chemical Engineering",
+    "title": "Safety Training for Laboratory Users",
+    "date": "January 3, 2025",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 74,
+    "source": "NSS Unit",
+    "title": "Cleanliness Drive in the Local Community",
+    "date": "December 31, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 75,
+    "source": "Registrar's Office",
+    "title": "Winter Vacation Schedule",
+    "date": "December 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 76,
+    "source": "Cultural Committee",
+    "title": "Results of the Intra-College Singing Competition",
+    "date": "December 24, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 77,
+    "source": "Academic Council",
+    "title": "Revised Syllabus for Second Year Courses",
+    "date": "December 21, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 78,
+    "source": "Placement Cell",
+    "title": "List of Companies Visiting in January",
+    "date": "December 18, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 79,
+    "source": "Library",
+    "title": "Book Exhibition and Sale",
+    "date": "December 15, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 80,
+    "source": "Research & Development Cell",
+    "title": "Funding Opportunity for Student Projects",
+    "date": "December 12, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 81,
+    "source": "Sports Committee",
+    "title": "Annual Athletics Meet Schedule",
+    "date": "December 9, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 82,
+    "source": "Finance Department",
+    "title": "Education Loan Assistance Camp",
+    "date": "December 6, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 83,
+    "source": "IT Services",
+    "title": "Mandatory Password Reset for All Users",
+    "date": "December 3, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 84,
+    "source": "Student Affairs",
+    "title": "Guidelines for Organizing Events on Campus",
+    "date": "November 30, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 85,
+    "source": "Hostel Administration",
+    "title": "Water Supply Interruption Notice",
+    "date": "November 27, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 86,
+    "source": "Department of Computer Science",
+    "title": "Hackathon 24-Hour Coding Challenge",
+    "date": "November 24, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 87,
+    "source": "Health Centre",
+    "title": "Dental Check-up Camp",
+    "date": "November 21, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 88,
+    "source": "Exam Cell",
+    "title": "Final Examination Hall Seating Arrangement",
+    "date": "November 18, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 89,
+    "source": "Student Senate",
+    "title": "Student Grievance Redressal Meeting",
+    "date": "November 15, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 90,
+    "source": "Training & Development Cell",
+    "title": "Foreign Language Course Registration",
+    "date": "November 12, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 91,
+    "source": "Alumni Association",
+    "title": "Networking Event with Recent Graduates",
+    "date": "November 9, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 92,
+    "source": "Department of Mechanical Engineering",
+    "title": "Workshop on CAD/CAM Software",
+    "date": "November 6, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 93,
+    "source": "Cultural Committee",
+    "title": "Open Mic Night Registration",
+    "date": "November 3, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 94,
+    "source": "NSS Unit",
+    "title": "Awareness Campaign on Waste Management",
+    "date": "October 31, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 95,
+    "source": "Academic Council",
+    "title": "Deadline for Project Thesis Submission",
+    "date": "October 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 96,
+    "source": "Registrar's Office",
+    "title": "Holiday for Diwali Festival",
+    "date": "October 25, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 97,
+    "source": "Library",
+    "title": "Procurement of New Textbooks and Reference Materials",
+    "date": "October 22, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 98,
+    "source": "Entrepreneurship Cell",
+    "title": "Business Plan Competition Announcement",
+    "date": "October 19, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 99,
+    "source": "Sports Committee",
+    "title": "Inter-College Table Tennis Tournament",
+    "date": "October 16, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 100,
+    "source": "Placement Cell",
+    "title": "Infosys Campus Recruitment Drive Details",
+    "date": "October 13, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 101,
+    "source": "Department of Electrical Engineering",
+    "title": "Guest Lecture on Smart Grid Technologies",
+    "date": "October 10, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 102,
+    "source": "Student Affairs",
+    "title": "Vehicle Parking Regulations on Campus",
+    "date": "October 7, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 103,
+    "source": "Hostel Administration",
+    "title": "Mess Menu for the Upcoming Month",
+    "date": "October 4, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 104,
+    "source": "IT Services",
+    "title": "New Software Available in Computer Labs",
+    "date": "October 1, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 105,
+    "source": "Finance Department",
+    "title": "Disbursement of Merit-based Scholarships",
+    "date": "September 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 106,
+    "source": "Health Centre",
+    "title": "Workshop on Mental Health and Stress Management",
+    "date": "September 25, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 107,
+    "source": "Exam Cell",
+    "title": "Mid-Semester Examination Schedule - Revised",
+    "date": "September 22, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 108,
+    "source": "Student Senate",
+    "title": "Call for Volunteers for Annual Fest",
+    "date": "September 19, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 109,
+    "source": "Department of Civil Engineering",
+    "title": "Workshop on AutoCAD and STAAD Pro",
+    "date": "September 16, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 110,
+    "source": "Training & Development Cell",
+    "title": "GATE Examination Coaching Classes",
+    "date": "September 13, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 111,
+    "source": "Alumni Association",
+    "title": "Update Your Contact Information Drive",
+    "date": "September 10, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 112,
+    "source": "Cultural Committee",
+    "title": "Fine Arts and Crafts Exhibition",
+    "date": "September 7, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 113,
+    "source": "Academic Council",
+    "title": "Introduction of New Minor Degree Programs",
+    "date": "September 4, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 114,
+    "source": "Registrar's Office",
+    "title": "Procedure for Issuance of Bonafide Certificates",
+    "date": "September 1, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 115,
+    "source": "Library",
+    "title": "Reminder: Return Borrowed Books Before Mid-Sem",
+    "date": "August 29, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 116,
+    "source": "NSS Unit",
+    "title": "Visit to a Local Orphanage",
+    "date": "August 26, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 117,
+    "source": "Placement Cell",
+    "title": "Registration for Placement Session 2024-25",
+    "date": "August 23, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 118,
+    "source": "Sports Committee",
+    "title": "Selection Trials for University Chess Team",
+    "date": "August 20, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 119,
+    "source": "Research & Development Cell",
+    "title": "Seminar on 'How to Write a Research Paper'",
+    "date": "August 17, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 120,
+    "source": "Department of Humanities",
+    "title": "Film Screening and Discussion",
+    "date": "August 14, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 121,
+    "source": "Hostel Administration",
+    "title": "Rules Regarding Use of Electrical Appliances",
+    "date": "August 11, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 122,
+    "source": "Student Affairs",
+    "title": "Issuance of New Student ID Cards",
+    "date": "August 8, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 123,
+    "source": "Finance Department",
+    "title": "Notice on Caution Money Refund",
+    "date": "August 5, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 124,
+    "source": "IT Services",
+    "title": "Upgradation of Campus Network Infrastructure",
+    "date": "August 2, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 125,
+    "source": "Exam Cell",
+    "title": "Declaration of Summer Term Results",
+    "date": "July 30, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 126,
+    "source": "Student Senate",
+    "title": "Open House Discussion with the Director",
+    "date": "July 27, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 127,
+    "source": "Entrepreneurship Cell",
+    "title": "Mentorship Session for Aspiring Entrepreneurs",
+    "date": "July 24, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 128,
+    "source": "Department of Chemical Engineering",
+    "title": "Industrial Tour to a Fertilizer Plant",
+    "date": "July 21, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 129,
+    "source": "Health Centre",
+    "title": "Awareness Program on Communicable Diseases",
+    "date": "July 18, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 130,
+    "source": "Academic Council",
+    "title": "List of Holidays for the Autumn Semester",
+    "date": "July 15, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 131,
+    "source": "Registrar's Office",
+    "title": "Commencement of Classes for Autumn Semester",
+    "date": "July 12, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 132,
+    "source": "Placement Cell",
+    "title": "Data Science Internship at Amazon",
+    "date": "July 9, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 133,
+    "source": "Library",
+    "title": "Orientation Program for New Library Users",
+    "date": "July 6, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 134,
+    "source": "Sports Committee",
+    "title": "Registrations for Intra-Hostel Volleyball Tournament",
+    "date": "July 3, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 135,
+    "source": "Training & Development Cell",
+    "title": "Advanced Excel and Data Analytics Workshop",
+    "date": "June 30, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 136,
+    "source": "Alumni Association",
+    "title": "Alumni Contribution to Campus Development Fund",
+    "date": "June 27, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 137,
+    "source": "Cultural Committee",
+    "title": "Street Play Competition on Social Issues",
+    "date": "June 24, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 138,
+    "source": "NSS Unit",
+    "title": "Adult Literacy Program in Nearby Village",
+    "date": "June 21, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 139,
+    "source": "Department of Mechanical Engineering",
+    "title": "Seminar on Electric Vehicle Technology",
+    "date": "June 18, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 140,
+    "source": "Hostel Administration",
+    "title": "Reporting Instructions for New Hostel Residents",
+    "date": "June 15, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 141,
+    "source": "Student Affairs",
+    "title": "Scholarship Opportunities for Meritorious Students",
+    "date": "June 12, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 142,
+    "source": "Finance Department",
+    "title": "Online Fee Payment Portal Maintenance",
+    "date": "June 9, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 143,
+    "source": "IT Services",
+    "title": "Introduction of Two-Factor Authentication for Email",
+    "date": "June 6, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 144,
+    "source": "Exam Cell",
+    "title": "Results of Spring Semester Re-evaluation",
+    "date": "June 3, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 145,
+    "source": "Research & Development Cell",
+    "title": "Call for Abstracts: Annual Research Symposium",
+    "date": "May 31, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 146,
+    "source": "Department of Computer Science",
+    "title": "Competitive Programming Contest 'CodeStorm'",
+    "date": "May 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 147,
+    "source": "Health Centre",
+    "title": "Eye Check-up Camp in Collaboration with Lions Club",
+    "date": "May 25, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 148,
+    "source": "Academic Council",
+    "title": "Collection of Degree Certificates for Graduating Batch",
+    "date": "May 22, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 149,
+    "source": "Student Senate",
+    "title": "Election Results for Student Council 2024-25",
+    "date": "May 19, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 150,
+    "source": "Registrar's Office",
+    "title": "Convocation Ceremony Schedule and Guidelines",
+    "date": "May 16, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 151,
+    "source": "Library",
+    "title": "Weeding out of Old and Damaged Books",
+    "date": "May 13, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 152,
+    "source": "Placement Cell",
+    "title": "Final Placement Statistics for 2023-24 Batch",
+    "date": "May 10, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 153,
+    "source": "Sports Committee",
+    "title": "Felicitation Ceremony for Sports Achievers",
+    "date": "May 7, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 154,
+    "source": "Department of Electrical Engineering",
+    "title": "Project Exhibition for Final Year Students",
+    "date": "May 4, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 155,
+    "source": "Training & Development Cell",
+    "title": "GRE and TOEFL Guidance Session",
+    "date": "May 1, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 156,
+    "source": "Alumni Association",
+    "title": "Launch of City-Wise Alumni Chapters",
+    "date": "April 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 157,
+    "source": "Cultural Committee",
+    "title": "Classical Music and Dance Evening 'Spic Macay'",
+    "date": "April 25, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 158,
+    "source": "NSS Unit",
+    "title": "Traffic Awareness Campaign with Local Police",
+    "date": "April 22, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 159,
+    "source": "Hostel Administration",
+    "title": "Notice for Vacating Hostels During Summer Break",
+    "date": "April 19, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 160,
+    "source": "Student Affairs",
+    "title": "Farewell Function for the Graduating Batch",
+    "date": "April 16, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 161,
+    "source": "Finance Department",
+    "title": "No Dues Certificate Issuance Procedure",
+    "date": "April 13, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 162,
+    "source": "IT Services",
+    "title": "Cybersecurity Best Practices",
+    "date": "April 10, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 163,
+    "source": "Exam Cell",
+    "title": "End Semester Practical Examination Schedule",
+    "date": "April 7, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 164,
+    "source": "Research & Development Cell",
+    "title": "Workshop on Intellectual Property Rights (IPR)",
+    "date": "April 4, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 165,
+    "source": "Department of Civil Engineering",
+    "title": "Guest Lecture on Earthquake Resistant Structures",
+    "date": "April 1, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 166,
+    "source": "Health Centre",
+    "title": "First Aid Training Workshop",
+    "date": "March 29, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 167,
+    "source": "Academic Council",
+    "title": "Final List of Graduating Students",
+    "date": "March 26, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 168,
+    "source": "Student Senate",
+    "title": "Feedback on Canteen and Mess Services",
+    "date": "March 23, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 169,
+    "source": "Registrar's Office",
+    "title": "Holiday on Account of Holi Festival",
+    "date": "March 20, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 170,
+    "source": "Library",
+    "title": "Extended Hours for End Semester Exams",
+    "date": "March 17, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 171,
+    "source": "Placement Cell",
+    "title": "Mock Interview Sessions with Industry Experts",
+    "date": "March 14, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 172,
+    "source": "Sports Committee",
+    "title": "Results of Inter-College Badminton Championship",
+    "date": "March 11, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 173,
+    "source": "Entrepreneurship Cell",
+    "title": "E-Summit 2024 Guest Speaker List",
+    "date": "March 8, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 174,
+    "source": "Training & Development Cell",
+    "title": "Certification Course on Digital Marketing",
+    "date": "March 5, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 175,
+    "source": "Alumni Association",
+    "title": "Annual Alumni Fundraising Gala",
+    "date": "March 2, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 176,
+    "source": "Cultural Committee",
+    "title": "Fashion Show Auditions for Annual Fest",
+    "date": "February 28, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 177,
+    "source": "NSS Unit",
+    "title": "Blood Donation Camp - Final Report",
+    "date": "February 25, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 178,
+    "source": "Department of Humanities",
+    "title": "Creative Writing Competition",
+    "date": "February 22, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 179,
+    "source": "Hostel Administration",
+    "title": "Surprise Inspection for Prohibited Items",
+    "date": "February 19, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 180,
+    "source": "Student Affairs",
+    "title": "Rules Regarding Campus Discipline",
+    "date": "February 16, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 181,
+    "source": "Finance Department",
+    "title": "Last Date for Exam Fee Payment",
+    "date": "February 13, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 182,
+    "source": "IT Services",
+    "title": "Official Communication via Institute Email Only",
+    "date": "February 10, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 183,
+    "source": "Exam Cell",
+    "title": "Mid-Semester Examination Hall Ticket Distribution",
+    "date": "February 7, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 184,
+    "source": "Research & Development Cell",
+    "title": "Plagiarism Policy and Use of Turnitin",
+    "date": "February 4, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 185,
+    "source": "Department of Chemical Engineering",
+    "title": "Guest Lecture on Process Safety Management",
+    "date": "February 1, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 186,
+    "source": "Health Centre",
+    "title": "Availability of 24/7 Ambulance Service",
+    "date": "January 29, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 187,
+    "source": "Academic Council",
+    "title": "Course Registration for Spring Semester",
+    "date": "January 26, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 188,
+    "source": "Student Senate",
+    "title": "Formation of Clubs and Societies for New Year",
+    "date": "January 23, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 189,
+    "source": "Registrar's Office",
+    "title": "Republic Day Celebration Invitation",
+    "date": "January 20, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 190,
+    "source": "Library",
+    "title": "User Awareness Program on E-Resources",
+    "date": "January 17, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 191,
+    "source": "Placement Cell",
+    "title": "List of Students Shortlisted for TCS Interview",
+    "date": "January 14, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 192,
+    "source": "Sports Committee",
+    "title": "Inauguration of Renovated Gymnasium",
+    "date": "January 11, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 193,
+    "source": "Department of Computer Science",
+    "title": "Ethical Hacking Workshop",
+    "date": "January 8, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 194,
+    "source": "Training & Development Cell",
+    "title": "Personality Development Program Registration",
+    "date": "January 5, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 195,
+    "source": "Alumni Association",
+    "title": "New Year Greetings from the Alumni Association",
+    "date": "January 2, 2024",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 196,
+    "source": "Cultural Committee",
+    "title": "Planning Meeting for Annual Tech-Cultural Fest",
+    "date": "December 30, 2023",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 197,
+    "source": "NSS Unit",
+    "title": "Winter Clothes Donation Drive",
+    "date": "December 27, 2023",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 198,
+    "source": "Hostel Administration",
+    "title": "Winter Vacation Hostel Closure Notice",
+    "date": "December 24, 2023",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 199,
+    "source": "Student Affairs",
+    "title": "Survey on Student Satisfaction",
+    "date": "December 21, 2023",
+    "pdf": "dummy-pdf.pdf"
+  },
+  {
+    "id": 200,
+    "source": "Exam Cell",
+    "title": "Results of Autumn Semester Examinations",
+    "date": "December 18, 2023",
     "pdf": "dummy-pdf.pdf"
   }
 ]
