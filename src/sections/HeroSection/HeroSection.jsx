@@ -3,10 +3,10 @@ const HeroSection = () => {
 		// <section className='w-full min-h-max h-[37vh] min-[430px]:h-[45vh] flex relative z-0'>
 		<section
 			id="HeroSection"
-			className="w-full mx-auto max-w-[1700px] h-[100svh] lg:h-screen 2xl:h-full flex flex-col relative z-0"
+			className="w-full max-w-[1700px] mx-auto h-[100svh] lg:h-screen 2xl:h-screen max-h-[900px] flex max-sm:flex-col relative z-0"
 		>
 			{/* hero left */}
-			<div className="max-sm:w-full h-1/2 flex flex-col justify-center border-2 border-red-500 p-4">
+			<div className="max-sm:w-full sm:w-1/2 h-1/2 sm:h-full flex flex-col justify-center p-4">
 				<img
 					src="./assets/imgs/Students_Senate_Logo.png"
 					alt="Students' Senate Logo"
@@ -21,11 +21,11 @@ const HeroSection = () => {
 			</div>
 
 			{/* hero right */}
-			<div className="flex justify-center sm:justify-end max-sm:w-full h-1/2 border-2 border-green-500">
+			<div className="max-sm:w-full sm:w-1/2 h-1/2 sm:h-full flex items-center justify-center sm:justify-end max-lg:relative overflow-hidden">
 				<img
 					src="./assets/imgs/IIEST_Shibpur_Clock.png"
 					alt="IIEST Shibpur Clock"
-					className="max-sm:h-full max-sm:w-auto sm:absolute sm:right-0 sm:bottom-0 z-[2] select-none"
+					className="max-w-full max-h-full w-auto h-auto sm:absolute sm:right-0 sm:bottom-0 z-[2] select-none"
 				/>
 			</div>
 
