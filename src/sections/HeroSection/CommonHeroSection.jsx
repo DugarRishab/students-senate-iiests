@@ -5,14 +5,21 @@ const HeroSection = () => {
     <section className="min-h-screen relative">
       <Navbar />
 
-      <div className="flex flex-col justify-start pt-[50%] md:pt-[12%] pl-[5%] h-screen mx-auto max-w-[1920px]">
+      <div className="flex flex-col justify-start pt-[27%] md:pt-[12%] pl-[5%] h-screen mx-auto max-w-[1920px]">
         <img
           src="./assets/imgs/Students_Senate_Logo.png"
           alt="IIEST Shibpur Logo"
           className="w-16 md:w-20 lg:w-24 xl:w-28 z-40"
         />
         <p className="text-lg md:text-3xl font-normal font-sans mb-7 md:mb-12 z-40">
-          Indian Institute Of Engineering Science and <br /> Technology, Shibpur
+          <span className="md:hidden">
+            Indian Institute Of Engineering <br /> Science and Technology,
+            Shibpur
+          </span>
+          <span className="hidden md:block">
+            Indian Institute Of Engineering Science and <br /> Technology,
+            Shibpur
+          </span>
         </p>
         <p className="uppercase text-4xl md:text-8xl font-semibold __font-viaoda font-sans z-40 tracking-tight">
           STUDENTS<span className="font-serif">’</span> <br /> SENATE
