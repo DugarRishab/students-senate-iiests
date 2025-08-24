@@ -82,12 +82,12 @@ export default function DepartmentsPage() {
     }
 
     return (
-      <div className="grid grid-cols-4 gap-6 mt-6 mb-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-6 mb-12">
         {departmentsData[selectedDept].map((member, index) => (
           <div key={index} className="flex flex-col items-center">
             <AvatarCard
               name={member.name}
-              department={`Department of ${getFullDept(selectedDept)}`}
+              department={getFullDept(selectedDept)}
               profilePic={member.profilePic}
               bgColor={member.bgColor}
               ringColor={member.ringColor}
@@ -99,16 +99,16 @@ export default function DepartmentsPage() {
   };
 
   return (
-    <section className="min-h-screen bg-blue-50 py-4 pr-4 mb-24">
-      <h1 className="w-full flex justify-end font-bold text-5xl py-12 pr-16">
-        Lorem ipsum dolor sit
+    <section className="min-h-screen bg-blue-50 py-4 md:pr-4 mb-24">
+      <h1 className="w-full flex md:justify-end font-bold text-2xl md:text-5xl mb-8 md:mb-0 px-4 md:px-0 py-2 md:py-12 md:pr-16">
+        Heading or Empty
       </h1>
 
-      <div className="flex">
-        {/* Left side with semicircular chart */}
-        <div className="w-1/3 relative">
-          <div className="absolute top-[300px] left-[-350px] transform -translate-y-1/2">
-            <div className="size-96 md:size-[700px]">
+      <div className="flex flex-col md:flex-row overflow-hidden md:overflow-visible w-full">
+        {/* semicircular chart */}
+        <div className="md:w-1/3 relative p-0">
+          <div className="md:absolute md:top-[300px] md:left-[-350px] transform rotate-90 md:rotate-0 -translate-y-1/2">
+            <div className="size-full md:size-[700px]">
               <ResponsiveContainer width="100%" height="100%" className="z-30">
                 <PieChart>
                   <Pie
@@ -137,8 +137,8 @@ export default function DepartmentsPage() {
                         }
                         className={`transform origin-center ${
                           item.name === selectedDept
-                            ? "scale-[100%]"
-                            : "scale-[96%]"
+                            ? "scale-[100%] md:scale-[100%]"
+                            : "scale-[96%] md:scale-[96%]"
                         }`}
                       />
                     ))}
@@ -149,9 +149,8 @@ export default function DepartmentsPage() {
 
             {/* center semi circle */}
             <div
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pl-36 font-bold text-sm
-                            bg-indigo-900 text-white rounded-full size-[278px] flex flex-col items-start justify-center text-left"
-              style={{ borderRadius: "0% 50% 50% 0%" }}
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-[270deg] md:rotate-0 pt-20 md:pt-0 md:pl-36 font-bold text-sm
+                bg-indigo-900 text-white rounded-full size-[190px] md:size-[278px] flex flex-col items-center text-center md:text-left md:items-start justify-center"
             >
               THE <br />
               GENERAL <br />
@@ -160,8 +159,10 @@ export default function DepartmentsPage() {
           </div>
         </div>
 
-        {/* right side: department cards */}
-        <div className="w-2/3 pl-10 min-h-[700px]">{renderMembersGrid()}</div>
+        {/* department cards */}
+        <div className="md:w-2/3 md:pl-10 min-h-[700px] transform translate-y-[-200px] md:translate-y-0">
+          {renderMembersGrid()}
+        </div>
       </div>
     </section>
   );
