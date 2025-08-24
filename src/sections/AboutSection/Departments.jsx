@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import AvatarCard from "../../components/AvatarCard/AvatarCard";
+import MobileSemiCircleChart from "../../components/Chart/MobileChart";
 
 function getFullDept(abbr) {
   switch (abbr.toLowerCase()) {
@@ -100,13 +101,20 @@ export default function DepartmentsPage() {
 
   return (
     <section className="min-h-screen bg-blue-50 py-4 md:pr-4 mb-24">
-      <h1 className="w-full flex md:justify-end font-bold text-2xl md:text-5xl mb-8 md:mb-0 px-4 md:px-0 py-2 md:py-12 md:pr-16">
+      <h1 className="w-full flex md:justify-end font-bold text-2xl md:text-5xl mb-2 md:mb-0 px-4 md:px-0 py-2 md:py-12 md:pr-16">
         Heading or Empty
       </h1>
 
+      {/* Mobile-only chart */}
+      <MobileSemiCircleChart
+        pieData={pieData}
+        selectedDept={selectedDept}
+        onSliceClick={handlePieClick}
+      />
+
       <div className="flex flex-col md:flex-row overflow-hidden md:overflow-visible w-full">
         {/* semicircular chart */}
-        <div className="md:w-1/3 relative p-0">
+        <div className="hidden md:block md:w-1/3 relative p-0">
           <div className="md:absolute md:top-[300px] md:left-[-350px] transform rotate-90 md:rotate-0 -translate-y-1/2">
             <div className="size-full md:size-[700px]">
               <ResponsiveContainer width="100%" height="100%" className="z-30">
@@ -124,7 +132,7 @@ export default function DepartmentsPage() {
                     onClick={handlePieClick}
                     isAnimationActive={true}
                     animationDuration={800}
-                    stroke="rgba(76,76,237,1)"
+                    stroke="rgba(76,76,237,0)"
                     strokeWidth={1}
                   >
                     {pieData.map((item) => (
@@ -160,7 +168,7 @@ export default function DepartmentsPage() {
         </div>
 
         {/* department cards */}
-        <div className="md:w-2/3 md:pl-10 min-h-[700px] transform translate-y-[-200px] md:translate-y-0">
+        <div className="md:w-2/3 md:pl-10 min-h-[700px] transform translate-y-[0px] md:translate-y-0">
           {renderMembersGrid()}
         </div>
       </div>
